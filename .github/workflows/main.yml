@@ -36,4 +36,4 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           port: 22
           script: |
-            sudo cp /home/ubuntu/* /var/www/html
+            sudo cp -r /home/ubuntu/* /var/www/html
