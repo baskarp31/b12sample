@@ -11,6 +11,6 @@ jobs:
       -uses:actions/checkout@v4
       -name:Run some commands
        run: |
-	       ls-al
+	     ls-al
          whoami
          pwd
