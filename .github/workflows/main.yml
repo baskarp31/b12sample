@@ -19,7 +19,7 @@ jobs:
           pwd
       
       - name: copy files to EC2
-        uses: appleboy/scp-action@v1
+        uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USERNAME }}
