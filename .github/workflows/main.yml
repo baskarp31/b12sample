@@ -12,5 +12,4 @@ jobs:
       -name:Run some commands
        runs: |
 	     ls-al
-         whoami
-         pwd
+         
